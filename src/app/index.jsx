@@ -1,13 +1,13 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Layout from "./layout/layout";
-import Homepage from "./pages/homepage/homepage";
-import AboutUsPage from "./pages/about-us/about";
+import Layout from "./layout";
+import Homepage from "./pages/homepage";
+import AboutUsPage from "./pages/about-us";
 
 export default function App() {
   return (
-    <Layout className="container">
-      <BrowserRouter>
+    <BrowserRouter>
+      <Layout className="container">
         <Switch>
           <Route exact path="/">
             <Homepage />
@@ -17,7 +17,7 @@ export default function App() {
             <AboutUsPage />
           </Route>
         </Switch>
-      </BrowserRouter>
-    </Layout>
+      </Layout>
+    </BrowserRouter>
   );
 }
