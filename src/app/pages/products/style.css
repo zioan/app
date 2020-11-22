@@ -1,0 +1,16 @@
+.options {
+  margin: 1rem;
+}
+.options .option {
+  padding: 0.25rem 1rem;
+  margin: 0.25rem;
+  border: 1px solid grey;
+  background: rgb(231, 231, 231);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.options .option.selected {
+  border: 1px solid blue;
+  background: skyblue;
+}

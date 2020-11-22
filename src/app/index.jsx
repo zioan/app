@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Layout from "./layout";
 import Homepage from "./pages/homepage";
 import AboutUsPage from "./pages/about-us";
+import ProductsPage from "./pages/products";
 
 export default function App() {
   return (
@@ -15,6 +16,10 @@ export default function App() {
 
           <Route path="/about-us">
             <AboutUsPage />
+          </Route>
+
+          <Route path="/products">
+            <ProductsPage />
           </Route>
         </Switch>
       </Layout>

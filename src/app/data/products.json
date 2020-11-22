@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Connection cable Lightning to USB-A",
+    "sizes": [
+      {
+        "name": "1 pack",
+        "price": 1
+      },
+      {
+        "name": "2 pack",
+        "price": 2
+      }
+    ],
+    "styles": [
+      {
+        "name": "0.9 m",
+        "price": 5.29
+      },
+      {
+        "name": "1.8 m",
+        "price": 8.5
+      }
+    ],
+    "colors": [
+      {
+        "name": "grey",
+        "image": "https://m.media-amazon.com/images/I/71uMsNcCVuL._AC_SX569_.jpg"
+      },
+      {
+        "name": "red",
+        "image": "https://m.media-amazon.com/images/I/71DkS1Ym04L._AC_SX522_.jpg"
+      }
+    ]
+  }
+]
